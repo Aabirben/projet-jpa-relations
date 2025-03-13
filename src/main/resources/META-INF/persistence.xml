@@ -5,6 +5,7 @@
     <persistence-unit name="StudentCoursePU" transaction-type="RESOURCE_LOCAL">
         <!-- pour que Many-to-Many fonctionne sans conflit, ne laisser que les entités ci-dessous (many_to_many) -->
         <!-- Les autres entités sont commentées pour éviter les conflits de tables comme ONETOMANYUNICOURSE -->
+      <!-- DECOMMENTER POUR TRAITER CHAQUE CAS -->
 
         <!-- pour one to one unidirectionelle-->
          <class>com.example.projetjparelations.one_to_one_uni.Course</class> -->
@@ -37,10 +38,10 @@
          <!-- <class>com.example.projetjparelations.many_to_many_uni.Student</class> -->
          <!-- <class>com.example.projetjparelations.many_to_many_uni.StudentCourse</class> -->
 
-        <!-- pour one to one biidirectionelle-->
-         <class>com.example.projetjparelations.many_to_many_bi.Course</class> -->
-         <class>com.example.projetjparelations.many_to_many_bi.Student</class> -->
-         <class>com.example.projetjparelations.many_to_many_bi.StudentCourse</class> -->
+        <!-- pour many to many biidirectionelle-->
+        <!-- <class>com.example.projetjparelations.many_to_many_bi.Course</class> -->
+        <!-- <class>com.example.projetjparelations.many_to_many_bi.Student</class> -->
+        <!--<class>com.example.projetjparelations.many_to_many_bi.StudentCourse</class> -->
 
         <properties>
             <property name="jakarta.persistence.jdbc.url" value="jdbc:h2:mem:test;DB_CLOSE_DELAY=-1"/>
