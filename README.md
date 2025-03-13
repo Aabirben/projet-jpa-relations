@@ -17,6 +17,7 @@ Instructions d’utilisation
   - Affiche des messages explicatifs pour les cas impossibles dans les relations unidirectionnelles.
 
 Jointures dans chaque cas:
+
 -One-to-One Uni : Jointure via @JoinColumn(name = "course_id") dans Student.
 -One-to-One Bi : Jointure via @JoinColumn(name = "course_id") dans Student, bidirectionnelle avec mappedBy dans Course.
 -One-to-Many Uni : Jointure via @JoinColumn(name = "student_id") dans Course (côté Many).
