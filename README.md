@@ -2,7 +2,7 @@
 
 Instructions d’utilisation
 
-3. Utilisation de l’application :
+ Utilisation de l’application :
    - Un menu interactif s’affiche dans la console.
    - Choisissez une relation (1-8) ou quittez (9).
    - Sélectionnez une opération CRUD (1: Create, 2: Read, 3: Update, 4: Delete).
