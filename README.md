@@ -17,11 +17,11 @@ Instructions d’utilisation
   - Affiche des messages explicatifs pour les cas impossibles dans les relations unidirectionnelles.
 
 Jointures dans chaque cas:
-One-to-One Uni : Jointure via @JoinColumn(name = "course_id") dans Student.
-One-to-One Bi : Jointure via @JoinColumn(name = "course_id") dans Student, bidirectionnelle avec mappedBy dans Course.
-One-to-Many Uni : Jointure via @JoinColumn(name = "student_id") dans Course (côté Many).
-One-to-Many Bi : Jointure via @JoinColumn(name = "student_id") dans Course, bidirectionnelle avec mappedBy dans Student.
-Many-to-One Uni : Jointure via @JoinColumn(name = "course_id") dans Student.
-Many-to-One Bi : Jointure via @JoinColumn(name = "course_id") dans Student, bidirectionnelle avec mappedBy dans Course.
-Many-to-Many Uni (explicite) : Jointure via entité StudentCourse, unidirectionnelle depuis Student.
-Many-to-Many Bi (explicite) : Jointure via entité StudentCourse, bidirectionnelle avec mappedBy dans Course.
+-One-to-One Uni : Jointure via @JoinColumn(name = "course_id") dans Student.
+-One-to-One Bi : Jointure via @JoinColumn(name = "course_id") dans Student, bidirectionnelle avec mappedBy dans Course.
+-One-to-Many Uni : Jointure via @JoinColumn(name = "student_id") dans Course (côté Many).
+-One-to-Many Bi : Jointure via @JoinColumn(name = "student_id") dans Course, bidirectionnelle avec mappedBy dans Student.
+-Many-to-One Uni : Jointure via @JoinColumn(name = "course_id") dans Student.
+-Many-to-One Bi : Jointure via @JoinColumn(name = "course_id") dans Student, bidirectionnelle avec mappedBy dans Course.
+-Many-to-Many Uni (explicite) : Jointure via entité StudentCourse, unidirectionnelle depuis Student.
+-Many-to-Many Bi (explicite) : Jointure via entité StudentCourse, bidirectionnelle avec mappedBy dans Course.
